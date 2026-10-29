@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CakeCraft</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="visuals/favicon.png" type="image/x-icon">
+    <title>CakeCraft_menu</title>
+</head>
+<body>
+    <header class="container">
+        <img src="visuals/result_logo (1).png" alt="">
+        <nav class="header__nav">
+            <ul class="list__style">
+                <li><a  href="main_page.html">На главную</a></li>
+                <li><a href="#">Забронировать столик</a></li>
+                <li><a href="#">Заказать кастом</a></li>
+                <li><a href="#">Обратная связь</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="container grid__showcase" id="detailed">
+            <img src="visuals/full_img/result_blue_berry_cheesecake_full.jpg" alt="" class="detailed__img" id="detailed-img">
+            <div class="detailed__card">
+                <h2 id="detailed-title" class="title">Черничный чизкейк</h2>
+                <p id="detailed-short-info" class="text__info__detailed">Классический сливочный чизкейк с шапкой из свежей голубики.</p>
+                <p id="detailed-price" class="price">price: ₽350</p>
+                <p id="detailed-full-info" class="text__info__detailed">Традиционный чизкейк с легким ванильным вкусом и бархатистой текстурой. Свежая голубика добавляет приятную, едва уловимую кислинку, которая идеально балансирует сладость сливочного сыра.</p>
+                <button class="black__btn__mainsowcase">Add to cart</button>
+            </div>
+        </section>
+
+        <section class="container grid__menu" id="grid-menu">
+            <article class="grid__menu__card" data-id="1"
+                data-title="Пончик"
+                data-short-desc="Нежные дрожжевые пончики в яркой розовой глазури с разноцветной посыпкой."
+                data-price="₽150"
+                data-desc="Воздушное и мягкое дрожжевое тесто, покрытое тонким слоем нежной розовой глазури и щедрой порцией кондитерской посыпки. Идеальный выбор для сладкого перекуса, который поднимает настроение с первого укуса.">
+                <img src="visuals/img_preshow/result_donuts.jpg" alt="" class="grid__menu__card__img">
+                <h3 class="grid__menu__card__title">Пончики</h3>
+                <p class="grid__menu__card__desc">Нежные дрожжевые пончики в яркой розовой глазури с разноцветной посыпкой.</p>
+            </article>
+            <article class="grid__menu__card" data-id="2"
+                data-title="Чизкейк «Шоколадный бум»"
+                data-short-desc="Кремовый чизкейк с плотной шоколадной глазурью и кусочками печенья."
+                data-price="₽380"
+                data-desc="Классический нежный чизкейк на хрустящей песочной основе, щедро покрытый темным шоколадом. Сверху десерт украшен домашним шоколадным печеньем и кубиками молочного шоколада — настоящий праздник для любителей какао.">
+                <img src="visuals/img_preshow/result_cookie_cake.jpg" alt="Шоколадный чизкейк с печеньем и кусочками шоколада" class="grid__menu__card__img">
+                <h3 class="grid__menu__card__title">Чизкейк «Шоколадный бум»</h3>
+                <p class="grid__menu__card__desc">Кремовый чизкейк с плотной шоколадной глазурью и кусочками печенья.</p>
+            </article>
+            <article class="grid__menu__card" data-id="3"
+                data-title="Чизкейк «Черничный»"
+                data-short-desc="Классический сливочный чизкейк с шапкой из свежей голубики."
+                data-price="₽350"
+                data-desc="Традиционный чизкейк с легким ванильным вкусом и бархатистой текстурой. Свежая голубика добавляет приятную, едва уловимую кислинку, которая идеально балансирует сладость сливочного сыра.">
+                <img src="visuals/img_preshow/result_blue_berry_cheesecake.jpg" alt="Чизкейк, украшенный свежей голубикой" class="grid__menu__card__img">
+                <h3 class="grid__menu__card__title">Чизкейк «Черничный»</h3>
+                <p class="grid__menu__card__desc">Классический сливочный чизкейк с шапкой из свежей голубики.</p>
+            </article>
+            <article class="grid__menu__card" data-id="4"
+                data-title="Мини-кексы «Ганаш»"
+                data-short-desc="Влажные шоколадные кексы, залитые густой шоколадной глазурью."
+                data-price="₽180"
+                data-desc="Насыщенные, невероятно влажные кексы с добавлением темного какао, покрытые блестящей шоколадной глазурью. Идеально сочетаются с чашкой крепкого кофе или свежезаваренного чая.">
+                <img src="visuals/img_preshow/result_chocolate_cupcake.jpg" alt="Шоколадные мини-кексы с глазурью" class="grid__menu__card__img">
+                <h3 class="grid__menu__card__title">Мини-кексы «Ганаш»</h3>
+                <p class="grid__menu__card__desc">Влажные шоколадные кексы, залитые густой шоколадной глазурью.</p>
+            </article>
+            <article class="grid__menu__card" data-id="5"
+                data-title="Маффины «Шоколадные капли»"
+                data-short-desc="Сдобные маффины с крупными кусочками тающего шоколада внутри."
+                data-price="₽160"
+                data-desc="Классические ванильные маффины с щедрой порцией темных шоколадных капель (каллетс). При выпекании шоколад тает, создавая внутри любимого десерта тягучую шоколадную начинку.">
+                <img src="visuals/img_preshow/result_chocolate_cake.jpg" alt="Маффины с шоколадными каплями" class="grid__menu__card__img">
+                <h3 class="grid__menu__card__title">Маффины «Шоколадные капли»</h3>
+                <p class="grid__menu__card__desc">Сдобные маффины с крупными кусочками тающего шоколада внутри.</p>
+            </article>
+            <article class="grid__menu__card" data-id="6"
+                data-title="Капкейки «Черничный чиз»"
+                data-short-desc="Ванильные капкейки с шапкой из нежного крема чиз и свежей голубикой."
+                data-price="₽220"
+                data-desc="Легкие и воздушные ванильные капкейки, украшенные пышным сливочно-творожным кремом. Венчает композицию свежая голубика и легкая пудра — элегантный десерт для особого случая.">
+                <img src="visuals/img_preshow/result_blue_berry_cupcakes.jpg" alt="Капкейки с кремом чиз и голубикой" class="grid__menu__card__img">
+                <h3 class="grid__menu__card__title">Капкейки Черничный чиз»</h3>
+                <p class="grid__menu__card__desc">Ванильные капкейки с шапкой из нежного крема чиз и свежей голубикой.</p>
+            </article>
+            <article class="grid__menu__card" data-id="7"
+                data-title="Тарт «Земляничное наслаждение»"
+                data-short-desc="Песочный тарт с заварным кремом и свежей клубникой."
+                data-price="₽320"
+                data-desc="Хрустящая песочная основа, наполненная нежным ванильным заварным кремом (патисьер). Сверху тарт украшен сочной нарезанной клубникой и фирменным сливочным кремом по краю.">
+                <img src="visuals/img_preshow/result_straw_berry_waffle.jpg" alt="Тарт со свежей клубникой и кремом" class="grid__menu__card__img">
+                <h3 class="grid__menu__card__title">Тарт «Земляничное наслаждение»</h3>
+                <p class="grid__menu__card__desc">Песочный тарт с заварным кремом и свежей клубникой.</p>
+            </article>
+            <article class="grid__menu__card" data-id="8"
+                data-title="Ягодный тарт «Лесной сбор»"
+                data-short-desc="Тарт, щедро усыпанный миксом из свежих лесных ягод."
+                data-price="₽350"
+                data-desc="Основа из песочного теста с легким кремом, поверх которой выложен изысканный микс из ежевики, малины, красной смородины и черники. Взрыв свежести и витаминов в каждом кусочке.">
+                <img src="visuals/img_preshow/result_berry_mix_cake.jpg" alt="Тарт с миксом лесных ягод" class="grid__menu__card__img">
+                <h3 class="grid__menu__card__title">Ягодный тарт «Лесной сбор»</h3>
+                <p class="grid__menu__card__desc">Тарт, щедро усыпанный миксом из свежих лесных ягод.</p>
+            </article>
+            <article class="grid__menu__card" data-id="9"
+                data-title="Пудинг «Карамельная вишня»"
+                data-short-desc="Нежный ванильный пудинг в карамельном соусе с коктейльной вишней."
+                data-price="₽250"
+                data-desc="Французский десерт — нежный ванильный пудинг, пропитанный карамельным соусом. Украшен шапкой из взбитых сливок, коктейльной вишней и фирменным шоколадным декором.">
+                <img src="visuals/img_preshow/result_jelly_cake.jpg" alt="Ванильный пудинг с карамелью и вишней" class="grid__menu__card__img">
+                <h3 class="grid__menu__card__title">Пудинг «Карамельная вишня»</h3>
+                <p class="grid__menu__card__desc">Нежный ванильный пудинг в карамельном соусе с коктейльной вишней.</p>
+            </article>
+            <article class="grid__menu__card" data-id="10"
+                data-title="Синнабоны «Классические»"
+                data-short-desc="Мягкие булочки с ароматной корицей и сливочной глазурью."
+                data-price="₽190"
+                data-desc="Традиционные дрожжевые булочки, закрученные в спираль с корицей и тростниковым сахаром. Щедро политы нежным сливочно-сырным кремом, который буквально тает во рту.">
+                <img src="visuals/img_preshow/result_cinamonroll.jpg" alt="Булочки синнабон с корицей и глазурью" class="grid__menu__card__img">
+                <h3 class="grid__menu__card__title">Синнабоны «Классические»</h3>
+                <p class="grid__menu__card__desc">Мягкие булочки с ароматной корицей и сливочной глазурью.</p>
+            </article>
+            <article class="grid__menu__card" data-id="11"
+                data-title="Печенье «Американское»"
+                data-short-desc="Классическое печенье с большим количеством шоколадных капель."
+                data-price="₽90"
+                data-desc="Золотистое песочное печенье с щедрой порцией шоколадных капель. Хрустящее по краям и мягкое в центре — идеально к стакану холодного молока.">
+                <img src="visuals/img_preshow/result_cookies.jpg" alt="Шоколадное печенье с каплями шоколада" class="grid__menu__card__img">
+                <h3 class="grid__menu__card__title">Печенье «Американское»</h3>
+                <p class="grid__menu__card__desc">Классическое печенье с большим количеством шоколадных капель.</p>
+            </article>
+            <article class="grid__menu__card" data-id="12"
+                data-title="Панкейки «Облако»"
+                data-short-desc="Пышные японские панкейки с карамельным сиропом и маслом."
+                data-price="₽420"
+                data-desc="Воздушные, как облако, японские панкейки на основе взбитых белков. Подаются с кусочком сливочного масла и карамельным сиропом. Невероятно нежная и пористая текстура.">
+                <img src="visuals/img_preshow/result_pancakes.jpg" alt="Пышные панкейки с маслом и сиропом" class="grid__menu__card__img">
+                <h3 class="grid__menu__card__title">Панкейки «Облако»</h3>
+                <p class="grid__menu__card__desc">Пышные японские панкейки с карамельным сиропом и маслом.</p>
+            </article>
+        </section>
+    </main>
+
+    <footer class="container">
+        <h3 class="footer__text">©CakeCraft</h3>
+        <address class="footer__text__2">CakeCraft_official@gmail.com</address>
+    </footer>
+    
+</body>
+</html>
