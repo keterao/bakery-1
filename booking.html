@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CakeCraft</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="visuals/favicon.png" type="image/x-icon">
+    <title>CakeCraft_menu</title>
+</head>
+<body>
+    <header class="container">
+        <img src="visuals/result_logo (1).png" alt="">
+        <nav class="header__nav">
+            <ul class="list__style">
+                <li><a href="main_page.html">На главную</a></li>
+                <li><a href="menu.html">Меню</a></li>
+                <li><a href="booking.html">Забронировать столик</a></li>
+                <li><a href="#">Заказать кастом</a></li>
+                <li><a href="feedback.html">Обратная связь</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="container">
+            <h1 class="main__title">Забронировать столик</h1>
+            <p class="text__info__uniq">Выберите любое понравившееся место</p>
+            <img class="hero__img" src="visuals/booking_resized.jpg" alt="">
+        </section>
+        <section class="container">
+            <form class="booking__form" action="#" method="post">
+                <fieldset class="booking__form__field">
+                    <legend class="title__small"> Ваши данные</legend>
+                    <label class="form__text" for="client-name">Ваше имя</label>
+                    <input type="text" id="client-name" name="client_name" 
+                   placeholder="Например, Анна" required class="form__text borders__design">
+            
+                    <label class="form__text" for="client-phone">Телефон для связи</label>
+                    <input type="tel" id="client-phone" name="client_phone" 
+                   placeholder="+7 (___) ___-__-__" required class="form__text borders__design">
+                </fieldset>
+                <fieldset class="booking__form__field">
+                    <legend class="title__small">Детали брони</legend>
+
+
+                    <label class="form__text" for="table-number">Номер столика</label>
+                    <select id="table-number" name="table_id" required class="form__text borders__design">
+                        <option value="" disabled selected>Выберите столик</option>
+                        <option value="1">Столик №1</option>
+                        <option value="2">Столик №2</option>
+                        <option value="3">Столик №3</option>
+                        <option value="4">Столик №4</option>
+                        <option value="5">Столик №5</option>
+                        <option value="6">Столик №6</option>
+                        <option value="6">Столик №7</option>
+                        <option value="6">Столик №8</option>
+                    </select>
+
+                    <label class="form__text" for="booking-date">Дата визита</label>
+                    <input type="date" id="booking-date" name="booking_date" required class="form__text borders__design">
+
+                    <label class="form__text" for="booking-time">Время</label>
+                    <input type="time" id="booking-time" name="booking_time" 
+                   min="10:00" max="20:30" required class="form__text borders__design">
+                    <small class="hint">Мы работаем с 10:00 до 21:00. Последняя бронь в 20:30.</small>
+                </fieldset>
+                <button type="submit" class="btn-submit">Book</button>
+            </form>
+        </section>
+    </main>
+    <footer class="container">
+        <h3 class="footer__text">©CakeCraft</h3>
+        <address class="footer__text__2">CakeCraft_official@gmail.com</address>
+    </footer>
+</body>
+</html>

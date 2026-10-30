@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CakeCraft</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="visuals/favicon.png" type="image/x-icon">
+    <title>CakeCraft_menu</title>
+</head>
+<body>
+    <header class="container">
+        <img src="visuals/result_logo (1).png" alt="">
+        <nav class="header__nav">
+            <ul class="list__style">
+                <li><a href="main_page.html">На главную</a></li>
+                <li><a href="menu.html">Меню</a></li>
+                <li><a href="booking.html">Забронировать столик</a></li>
+                <li><a href="#">Заказать кастом</a></li>
+                <li><a href="feedback.html">Обратная связь</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="container grid__feedback">
+            <div class="text__part">
+                <h2 class="title">Оставьте свой отзыв</h2>
+                <p class="review__text">Мы всегда рады услышать ваше мнение! На этой странице вы можете оставить свой отзыв, задать вопрос нашему кондитеру, предложить идею для нового десерта. Ваши пожелания помогают нам делать «CakeCraft» еще лучше.</p>
+                <div class="feedback__form">
+                    <p class="review__text">Заполните форму ниже, и мы обязательно свяжемся с вами в ближайшее время.</p>
+            
+                    <form action="#" method="post">
+                        <div class="form__group">
+                            <label class="review__text" for="user-name">Ваше имя</label>
+                            <input class="review__text borders__design" type="text" id="user-name" name="name" placeholder="Например, Анна" required>
+                        </div>
+
+                        <div class="form__group">
+                            <label class="review__text" for="user-email">Email или телефон</label>
+                            <input class="review__text borders__design" type="text" id="user-email" name="contact" placeholder="Для связи с вами" required>
+                        </div>
+
+                        <div class="form__group">
+                            <label class="review__text " for="user-message">Сообщение</label>
+                            <textarea class="review__text borders__design" id="user-message" name="message" rows="5" placeholder="Напишите ваш отзыв или вопрос..." required></textarea>
+                        </div>
+
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+
+            <img src="visuals/facee_resized_photo.jpg" alt="">
+
+        </section>
+        
+    </main>
+    <footer class="container">
+        <h3 class="footer__text">©CakeCraft</h3>
+        <address class="footer__text__2">CakeCraft_official@gmail.com</address>
+    </footer>
+    
+</body>
+</html>

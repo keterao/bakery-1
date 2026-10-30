@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CakeCraft</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="visuals/favicon.png" type="image/x-icon">
+    <title>CakeCraft_menu</title>
+</head>
+<body>
+    <header class="container">
+        <img src="visuals/result_logo (1).png" alt="">
+        <nav class="header__nav">
+            <ul class="list__style">
+                <li><a href="main_page.html">На главную</a></li>
+                <li><a href="menu.html">Меню</a></li>
+                <li><a href="booking.html">Забронировать столик</a></li>
+                <li><a href="custom_order.html">Заказать кастом</a></li>
+                <li><a href="feedback.html">Обратная связь</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <h1 class="main__title"> Custom order</h1>
+            <p class="text__info__uniq">Здесь вы можете заказать кастомное изделие из нашей кондитерской</p>
+        </div>
+        <section class="container grid container__customize">
+            <article class="grid__card">
+                <img src="visuals/custom_made_img/custom_2_resized.jpg" alt="">
+                <p class="text__info">Перед вами пример одной из наших работ фишкой которой являеться кастомня надпись и уникальные декорации!</p>
+            </article>
+            <article class="grid__card">
+                <img src="visuals/custom_made_img/custom_3_resized.jpg" alt="">
+                <p class="text__info">Эта работа в свою очередь отличаеться уникальным рисунком (да мы можем и такое!)</p>
+            </article>
+            <article class="grid__card">
+                <img src="visuals/custom_made_img/custom_4_resized.jpg" alt="">
+                <p class="text__info">Здесь вы можете видеть совершенно уникальную форму и тематику, которую выбрал наш клиент.</p>
+            </article>
+        </section>
+        <section class="container grid__hero">
+            <article class="custom__form">
+                <form class="custom__order" action="#" method="post">
+                    <fieldset class="custom__form__group">
+                        <legend class="title__small">Выберите коржи</legend>
+                        <div class="radio__group">
+                            <input class="form__text" type="radio" id="base-vanilla" name="cake_base" value="vanilla" checked>
+                            <label class="form__text" for="base-vanilla">Классический ванильный</label>
+                        </div>
+                        <div class="radio__group">
+                            <input class="form__text" type="radio" id="base-chocolate" name="cake_base" value="chocolate">
+                            <label class="form__text" for="base-chocolate">Шоколадный</label>
+                        </div>
+                        <div class="radio__group">
+                            <input class="form__text" type="radio" id="base-honey" name="cake_base" value="honey">
+                            <label class="form__text" for="base-honey">Медовый</label>
+                        </div>
+                        <div class="radio__group">
+                            <input class="form__text" type="radio" id="base-nut" name="cake_base" value="nut">
+                            <label class="form__text" for="base-nut">Ореховый</label>
+                        </div>
+                    </fieldset>
+                    <fieldset class="custom__form__group">
+                        <legend class="title__small">Параметры торта</legend>
+                        <label class="form__text" for="layers-count">Количество слоев (от 1 до 5)</label>
+                        <input type="number" id="layers-count" name="layers" 
+                        min="1" max="5" value="2" required class="form__text borders__design">
+                    </fieldset>
+                    <fieldset class="custom__form__group">
+                        <legend class="title__small">Декор и надпись</legend>
+                        <div class="checkbox__group">
+                            <input type="checkbox" id="need-inscription" name="need_inscription">
+                            <label class="form__text" for="need-inscription">Нужна надпись на торте</label>
+                        </div>
+                        <label class="form__text" for="inscription-text">Текст надписи (если нужна)</label>
+                        <input type="text" id="inscription-text" name="inscription_text" 
+                        placeholder="Например: С днём рождения, Аня!" class="form__text borders__design">
+                    </fieldset>
+                    <div class="custom__form__group">
+                        <label class="form__text" for="custom-details">Опишите заказ</label>
+                        <textarea id="custom-details" name="details" rows="5" required
+                        placeholder="Опишите фигурки, цвета, вкусовые предпочтения, аллергии или прикрепите ссылку на референс..." 
+                        class="form__text borders__design"></textarea>
+                    </div>
+                    <button type="submit" class="btn-submit">Submit</button>
+                </form>
+            </article>
+            <img src="visuals/custom_griditem.jpg" alt="">
+        </section>
+    </main>
+    <footer class="container">
+        <h3 class="footer__text">©CakeCraft</h3>
+        <address class="footer__text__2">CakeCraft_official@gmail.com</address>
+    </footer>
+    
+</body>
+</html>
